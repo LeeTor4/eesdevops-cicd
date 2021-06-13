@@ -7,11 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPage {
 	
-	private static final String URL_LOGIN = "http://localhost:8080/agile-testing-trab1/login.html";
+	private static final String URL_LOGIN = "http://localhost:8080/agile-testing-cicd/login.html";
 	private WebDriver browser;
 	
 	public LoginPage() {
-		 System.setProperty("webdriver.chrome.driver", "/usr/webdriver/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/webdriver/chromedriver");
 		 this.browser = new ChromeDriver();
 		 this.browser.navigate().to(URL_LOGIN);
 	}
@@ -41,7 +41,7 @@ public class LoginPage {
 			return  browser.findElement(By.id("usuario-logado")).getText();
 		} catch (NoSuchElementException e) {
 			return null;
-	}
+	   }
 		
 	}
 }

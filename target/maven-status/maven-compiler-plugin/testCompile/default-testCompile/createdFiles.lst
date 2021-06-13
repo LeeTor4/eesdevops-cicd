@@ -1,0 +1,6 @@
+br/com/cicd/cartao/CartaoTeste.class
+usuario/UsuarioTest.class
+testes/LoginTest.class
+login/LoginPage.class
+br/com/cicd/cartao/CartaoCucumberRunner.class
+testes/TesteDeViagens.class

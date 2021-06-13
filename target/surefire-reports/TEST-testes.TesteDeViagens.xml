@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="testes.TesteDeViagens" time="0.007" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="testes.TesteDeViagens" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.boot.library.path" value="/usr/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.1.v20201027-0507/jre/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/lee/eclipse-workspace-eesdevops/br.com.cicd"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/lee/eclipse-workspace-eesdevops/agile-testing-cicd"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/lee/eclipse-workspace-eesdevops/br.com.cicd"/>
+    <property name="user.dir" value="/home/lee/eclipse-workspace-eesdevops/agile-testing-cicd"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="os.arch" value="amd64"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/lee/eclipse-workspace-eesdevops/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3485336495391901728.tmp"/>
+    <property name="classworlds.conf" value="/home/lee/eclipse-workspace-eesdevops/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5575895324795851782.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="jdk.debug" value="release"/>
@@ -38,7 +38,7 @@
     <property name="java.class.path" value="/usr/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
     <property name="java.home" value="/usr/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.1.v20201027-0507/jre"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -46,12 +46,12 @@
     <property name="java.version" value="15.0.1"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/home/lee/eclipse-workspace-eesdevops/br.com.cicd/EMBEDDED"/>
+    <property name="maven.home" value="/home/lee/eclipse-workspace-eesdevops/agile-testing-cicd/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2020-10-20"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="testes.TesteDeViagens" name="testaAcessoEstacao" time="0.007"/>
+  <testcase classname="testes.TesteDeViagens" name="testaAcessoEstacao" time="0.006"/>
 </testsuite>
